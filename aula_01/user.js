@@ -9,5 +9,6 @@ fetch('https://jsonplaceholder.typicode.com/users')
         .filter(element => element.id %2 === 0 )
         .forEach(element => {console.log(`${element.id} - ${element.name.toUpperCase()}, ${element.username.toLowerCase()}`)
             
+        
         })
         )
